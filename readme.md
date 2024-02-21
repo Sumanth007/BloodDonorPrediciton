@@ -13,7 +13,6 @@ This project is a web application developed using Java Servlet, JSP, MySQL, and 
 - Java (JDK)
 - Apache Tomcat
 - MySQL
-- Weka (for Machine Learning algorithms)
 - Front-end: HTML, CSS, JavaScript, JSP
 
 ## Installation
