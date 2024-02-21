@@ -1,0 +1,159 @@
+<%-- 
+    Document   : details
+    Created on : 25 Dec, 2023, 2:01:10 AM
+    Author     : suman
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blood Donor Analysis</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+<link href="css/master.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
+<link rel="stylesheet" href="plugins/iview/css/iview.css" type='text/css' media='all' />
+<link rel="stylesheet" href="plugins/iview/css/skin/style.css" type='text/css' media='all' />
+    
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script src= "js/jquery-migrate-1.2.1.js" ></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/bootstrap-3.1.1.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+</head>
+    
+<body>
+<div class="layout-theme animated-css"  data-header="sticky" data-header-top="200"  >
+    
+    
+  
+    
+  <!-- HEADER -->
+  
+    
+    <div class="top-nav ">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12  col-xs-12">
+            <div class="navbar yamm " >
+              <div class="navbar-header hidden-md  hidden-lg  hidden-sm ">
+                <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                <a href="#" class="navbar-brand">Menu</a> </div>
+              <div id="navbar-collapse-1" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.jsp">Home<i class="icon-home"></i></a> </li>
+                    <li><a href="#">Importance</i></a> </li>                    
+                     <li><a href="predict.jsp">Prediction</a> </li>
+                   <li><a href="classification.jsp">Classification </a> </li>
+                    <li><a href="TalukBasis.jsp">Comparison </a> </li>
+                </ul>
+<!--                <form id="search-global-menu" class="hidden-xs hidden-sm" method="get">
+                  <input type="text" value="" id="search" name="s" >
+                  <button type="submit"><i class="icon-magnifier"></i></button>
+                </form>-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!--end top-nav -->
+  </div><!-- HEADER END -->
+    
+    
+<!--  <div class="ui-title-page bg_title bg_transparent">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>Blood Donor Prediction And Analysis</h1>
+          
+        </div>
+      </div>
+    </div>
+  </div> end ui-title-page -->
+    
+        <div id="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 style="text-align: center; color: white; text-transform:uppercase">Blood Donor Prediction And Analysis</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--  <div class="border_btm">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <ol class="breadcrumb">
+            <li><a href="javascript:void(0);"><i class="icon icon-home color_primary"></i></a></li>
+            <li class="active">Blood Donor Prediction And Analysis</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div> end breadcrumb -->
+    
+    
+  <main class="main-content">
+    <section class="section wow fadeInUp" data-wow-delay="1.5s">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 col-sm-7">
+            <h2 class="title-steps">Every year
+              <span class="step-1">India </span>
+              <span class="step-2 color_primary"> require about Five crore units of blood out of which only a meagre 2.5 crore units of blood are available</span>
+            </h2>
+            <p class="ui-text">More than 38000 blood donations are needed every day. ●	India has several blood donation organizations, both governmental and non-governmental. Some major organizations operate in many regions throughout the country while other are regional and operate with local support. </p>
+          </div>
+          <div class="col-md-7 col-sm-5">
+          <div class="hover__figure">  <img src="media/670x375/1.jpg" height="375" width="670" alt="Foto"></div>
+          </div>
+        </div>
+      </div>
+    </section><!-- end section -->
+    
+    
+    
+    
+    
+    
+  </main><!-- end main-content -->
+    
+ 
+    
+    
+  <footer class="footer">
+        
+       
+    <div class="footer__bottom">
+    
+      
+    </div>
+  </footer>
+    
+    
+</div><!-- end layout-theme -->
+    
+<span class="scroll-top bg-color_second"> <i class="fa fa-angle-up"> </i></span>
+
+    
+<!-- SCRIPTS -->
+<script type="text/javascript" src="plugins/isotope/jquery.isotope.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="plugins/bxslider/jquery.bxslider.min.js"></script>
+<script src="plugins/prettyphoto/js/jquery.prettyPhoto.js"></script>
+<script src="../../../cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="plugins/datetimepicker/jquery.datetimepicker.js"></script>
+<script src="plugins/jelect/jquery.jelect.js"></script>
+<script src="plugins/nouislider/jquery.nouislider.all.min.js"></script>
+    
+<!--THEME-->
+<script src="js/cssua.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+    
+<!-- Mirrored from templines.rocks/html/health/about-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Jan 2018 05:07:05 GMT -->
+</html>

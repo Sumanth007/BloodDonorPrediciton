@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jars1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/web/jars/json-rpc-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/web/jars/Jama-1.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

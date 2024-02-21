@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30 Dec, 2023, 8:20:35 PM
+    Author     : suman
+*/
+
+#imgg{
+    border: 2px rgb(255, 246, 116) solid;
+  margin-bottom: 40px; /* Adjust the value to the desired gap size */
+}
+
+#img1{
+    padding-left: 20px;
+}
+
+#banner{
+  background: linear-gradient(to bottom, rgba(234, 52, 52, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://cdn.cbeditz.com/cbeditz/large/flex-board-printing-yellow-banner-background-download-y0kna.jpg");
+  background-size: cover; /* Set the background size to cover the entire container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  padding : 40px;
+}
+
