@@ -20,7 +20,7 @@ This project is a web application developed using Java Servlet, JSP, MySQL, and 
 1. Clone the repository: `git clone <repository-url>`
 2. Set up the MySQL database:
    - Create a database named `bloodbank`
-   - Import the `schema.sql` file located in the `database` directory
+   - And create tables with help with the sql dataset given.
 3. Configure the MySQL database connection in the `DBConnection.java` file.
 5. Build and deploy the project on Apache Tomcat.
 
