@@ -1,0 +1,31 @@
+# Blood Donor Prediction and Blood Bank Management System
+
+## Overview
+This project is a web application developed using Java Servlet, JSP, MySQL, and Machine Learning (ML) techniques. It combines predictive analytics and classification algorithms to predict future blood donors and classify them into various categories. The project also includes a Blood Bank Management System that allows admins, hospitals, and patients to manage blood donations, requests, and inventory.
+
+## Features
+- Predictive Analytics: The system predicts future blood donors based on past donation patterns using regression algorithms.
+- Blood Donor Classification: The system classifies blood donors into various categories using K-means clustering algorithms.
+- Blood Bank Management: The system manages blood donations, requests, and inventory for hospitals and patients.
+- Authentication: Admins, hospitals, and patients can authenticate themselves to access specific functionalities.
+
+## Dependencies
+- Java (JDK)
+- Apache Tomcat
+- MySQL
+- Weka (for Machine Learning algorithms)
+- Front-end: HTML, CSS, JavaScript, JSP
+
+## Installation
+1. Clone the repository: `git clone <repository-url>`
+2. Set up the MySQL database:
+   - Create a database named `bloodbank`
+   - Import the `schema.sql` file located in the `database` directory
+3. Configure the MySQL database connection in the `DBConnection.java` file.
+5. Build and deploy the project on Apache Tomcat.
+
+## Usage
+1. Access the web application using the URL: `http://localhost:8080/BloodDonationSystem/`
+2. Authenticate as an admin, hospital, or patient to access relevant features.
+3. View donor predictions and classifications in the dashboard.
+4. Manage blood donations, requests, and inventory in the Blood Bank Management System.
