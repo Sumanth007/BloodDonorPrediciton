@@ -1,13 +1,11 @@
 # Future Blood Donor Prediction and Analysis 
 
 ## Overview
-This project is a web application developed using Java Servlet, JSP, MySQL, and Machine Learning (ML) techniques. It combines predictive analytics and classification algorithms to predict future blood donors and classify them into various categories. The project also includes a Blood Bank Management System that allows admins, hospitals, and patients to manage blood donations, requests, and inventory.
+This project is a web application developed using Java Servlet, JSP, MySQL, and Machine Learning (ML) techniques. It combines predictive analytics and classification algorithms to predict future blood donors and classify them into various categories.
 
 ## Features
 - Predictive Analytics: The system predicts future blood donors based on past donation patterns using regression algorithms.
 - Blood Donor Classification: The system classifies blood donors into various categories using K-means clustering algorithms.
-- Blood Bank Management: The system manages blood donations, requests, and inventory for hospitals and patients.
-- Authentication: Admins, hospitals, and patients can authenticate themselves to access specific functionalities.
 
 ## Dependencies
 - Java (JDK)
